@@ -1,0 +1,191 @@
+*{
+    margin: 0%;
+    padding: 0%;
+     box-sizing: border-box;
+}
+html,body{
+    background-image: url('./media/part2.jpg');
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav h1{
+    color: red;
+    font-size: 39px;
+    margin-left: 50px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 80px;
+    margin-top: 10px;
+    margin-left: 50px;   
+         
+}
+nav ul a {
+    text-decoration: none;
+    text-align: center;
+    color:whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    
+}
+.wait{
+    all: unset;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 60px;
+}
+.wait input{
+    all: unset;
+    width: 180px;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid white;
+    
+}
+.wait ::placeholder{
+    color: white;
+    background-color:black;
+    word-spacing: 2px;
+}
+.wait button{
+    all: unset;
+    width: 90px;
+    padding: 6px 6px 6px 6px;
+    background-color: rgb(245, 14, 14);
+    font-size: 15px;
+    border-radius: 3px;
+    text-align: center;
+    color: white;
+}
+
+main{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+ .kangchul1{
+    color: white;
+    font-weight: 900;
+    word-spacing: 5px;
+    font-size: 38px;
+ }
+ .kangchul2{
+    color: rgb(235, 6, 6);
+    font-size: 52px;
+    font-weight: 900;
+ }
+ .kangchul3{
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+ }
+ main p{
+    color: white;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+     line-height: 25px;
+ }
+ main button{
+    all: unset;
+    
+    margin-top: 20px;
+    border: 1px solid orange;
+    border-radius: 6px;
+    background-color: orangered;
+    padding: 4px 4px 4px 4px;
+    width: 100px;
+    text-align: center;
+    font-weight: 600;
+    
+ }
+ .box{
+    margin-left: 370px;
+    width:240px;
+    height: 350px;
+    background-color: rgba(126, 10, 10, 0.404) ;
+}
+.box button{
+    all: unset;
+    width: 180px;
+    border-radius: 7px;
+    background-color: rgb(182, 0, 0);
+    color: black;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-left: 25px;
+    padding: 5px 5px 5px 5px;
+}
+.box input{
+    all: unset;
+    margin-top: 28px;
+    margin-left: 27px;
+}
+.box ::placeholder{
+ color: wheat;
+}
+.home{
+    all: unset;
+    width: 180px;
+    border-radius: 7px;
+    background-color: orange;
+    color: darkgoldenrod;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-left: 25px;
+    padding: 5px 5px 5px 5px;
+}
+.box h3{
+    margin-top: 10%;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+}
+.box h4{
+    display: flex;
+    margin-top: 3px;
+    color: orangered;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 44px;
+    word-spacing: 2px;
+    
+}
+.box p{
+    color: #fff;
+    margin-left: 10px;
+}
+.box h5{
+    text-align: center;
+    margin-top: 15px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+
+}
+.box footer{
+        display: flex;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin-top: 33px;
+        margin-left: 10px;
+        gap: 15px;
+}
+.box footer img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+    
+
